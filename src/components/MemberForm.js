@@ -38,7 +38,7 @@ export default function MemberForm(props) {
             type="text"
             name="firstName"
             value={firstName}
-            placeholder="Seungmin"
+            placeholder="First Name"
             onChange={handleChange}
             maxLength="15"
           />
@@ -48,7 +48,7 @@ export default function MemberForm(props) {
             type="text"
             name="lastName"
             value={lastName}
-            placeholder="Kim"
+            placeholder="Last Name"
             onChange={handleChange}
             maxLength="15"
           />
@@ -57,7 +57,7 @@ export default function MemberForm(props) {
           <input
             type="text"
             name="nickname"
-            placeholder="Puppy"
+            placeholder="Nickname"
             value={nickname}
             onChange={handleChange}
           />
@@ -76,7 +76,7 @@ export default function MemberForm(props) {
           <input
             type="email"
             name="email"
-            placeholder="skzpuppy@jyp.com"
+            placeholder="your-email@email.com"
             value={email}
             onChange={handleChange}
           />
@@ -85,7 +85,7 @@ export default function MemberForm(props) {
           <input
             type="text"
             name="linkedIn"
-            placeholder="linkedIn.com/skzpuppm"
+            placeholder="linkedIn.com/your-profile"
             value={linkedIn}
             onChange={handleChange}
           />
